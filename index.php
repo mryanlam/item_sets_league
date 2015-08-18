@@ -5,9 +5,13 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1>Hello, world!</h1>
-        <p>This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>
+        <h1>Upload a itemset!</h1>
+        <p>Upload an itemset file here and we will give statistics on it and stuff</p>
+        <form action="index.php" method="post" enctype="multipart/form-data">
+            <label for="file">Filename:</label><input type="file" name="file" id="file" /> <br />
+            <input type="submit" name="submit" value="Submit" />
+        </form>
+        <!--<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p>-->
       </div>
     </div>
 
