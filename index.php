@@ -7,7 +7,9 @@
         <div class="container">
             <?php
                 if (isset($_POST['submit'])) {
-                    print("<p> There was a file uploaded lol </p>");
+                    print("<p> The contents of the file are </p> <br>");
+                    $contents= file_get_contents($_FILES['file']['tmp_name']);
+                    print ($contents);
                 }
                 else {
                     # code...
