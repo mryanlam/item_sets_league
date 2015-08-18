@@ -6,7 +6,7 @@
     <div class="jumbotron">
         <div class="container">
             <?php
-                if (isset($_POST["file"])) {
+                if (isset($_POST['submit'])) {
                     print("<p> There was a file uploaded lol </p>");
                 }
                 else {
