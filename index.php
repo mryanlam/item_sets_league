@@ -10,7 +10,7 @@
                 if (isset($_POST['submit'])) {
                     print("<p> The contents of the file are </p> <br>");
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
-                    print (htmlspecialchars($contents));
+                    print (htmlentities($contents, ENT_QUOTES));
                 }
                 else {
                 //Else, display a form for people to upload a file to.
