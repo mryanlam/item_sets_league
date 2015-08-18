@@ -1,5 +1,5 @@
 <footer>
-  <p>&copy; Matt Azn and Andwizzle93, 2015</p>
+    <p>&copy; Matt Azn and Andwizzle93, 2015</p>
 </footer>
 </div> <!-- /container -->
 
