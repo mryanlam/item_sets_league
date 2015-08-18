@@ -17,7 +17,7 @@
                     $title = $data['title'];
                     print ("<p> This is an itemset for ".$champion." on the map ".$map." named ".$title."</p><br>");
                     foreach ($data['blocks'] as $block) {
-                        print("<p>".$block['type']"</p><br>");
+                        print("<p>".$block['type']."</p><br>");
                     }
 
                 }
