@@ -6,13 +6,14 @@
     <div class="jumbotron">
         <div class="container">
             <?php
+                //If there is a file, open it and interpret it's results
                 if (isset($_POST['submit'])) {
                     print("<p> The contents of the file are </p> <br>");
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
                     print ($contents);
                 }
                 else {
-                    # code...
+                //Else, display a form for people to upload a file to.
                     include "static/upload_form.php";
                 }
             ?>
