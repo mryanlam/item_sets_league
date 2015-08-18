@@ -7,7 +7,7 @@
         <div class="container">
             <?php
                 if (isset($_POST["file"])) {
-                    <p> There was a file uploaded lol </p>
+                    echo "<p> There was a file uploaded lol </p>";
                 }
                 else {
                     # code...
