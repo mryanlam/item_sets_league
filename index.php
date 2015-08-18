@@ -14,7 +14,7 @@
                     $data = json_decode($contents, true);
                     $champion = $data['champion'];
                     $map = $data['mode'];
-                    print ("<p> This is an itemset for ".$champion." on the map ".map."</p><br>");
+                    print ("<p> This is an itemset for ".$champion." on the map ".$map."</p><br>");
                 }
                 else {
                 //Else, display a form for people to upload a file to.
