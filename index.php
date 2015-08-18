@@ -8,10 +8,13 @@
             <?php
                 //If there is a file, open it and interpret it's results
                 if (isset($_POST['submit'])) {
-                    print("<p> The contents of the file are </p> <br>");
+                    //print("<p> The contents of the file are </p> <br>");
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
                     //print ($contents);
-                    var_dump(json_decode($contents, true));
+                    $data = json_decode($contents, true);
+                    $champion = $data['champion'];
+                    $map = $data['mode'];
+                    print ("<p> This is an itemset for ".$champion." on the map ".map."</p><br>");
                 }
                 else {
                 //Else, display a form for people to upload a file to.
