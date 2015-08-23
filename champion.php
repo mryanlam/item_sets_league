@@ -18,7 +18,7 @@
                 $title = $data['data'][$_GET['champion']]['title'];
                 $image = $data['data'][$_GET['champion']]['image']['full'];
                 print ('<img src="img/champion/'.$image.'" alt="'.$name.'">');
-                print ("<h1>$name</h1><br>");
+                print ("<h1>$name</h1>");
                 print ("<p>$title</p>");
             } else {
                 print ('<h1>ERROR: Champion not specified</h1> <br>');
