@@ -9,7 +9,8 @@
     print ('    <div class="container">'."\n");
             //Champion Name as header
             if (isset($_GET['champion'])) {
-                $data = json_decode("data/$lang/$_GET['champion'].json", true);
+                $champion_key = $_GET['champion'];
+                $data = json_decode("data/$lang/$champion_key.json", true);
                 $name = $data['data'][$_GET['champion']]['name'];
                 $title = $data['data'][$_GET['champion']]['title'];
                 $image = $data['data'][$_GET['champion']]['image']['full'];
