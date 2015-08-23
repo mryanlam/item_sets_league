@@ -25,9 +25,17 @@
             }
     print ('    </div>'."\n");
     print ('</div>'."\n");
-?>
-    <hr>
-    <div class="container">
-<?php
+
+
+    print ('<div class="container">');
+    print ('    <div class="row">');
+    print ('        <div class="col-md-4">');
+    foreach($data['data'][$_GET['champion']]['stats'] as $stat) {
+        print("$stat => $data['data'][$_GET['champion']]['stats'][$stat] <br>");
+    }
+    print ('        </div>');
+    print ('   </div>');
+    print ('<hr>');
+
     include "static/footer.php";
 ?>
