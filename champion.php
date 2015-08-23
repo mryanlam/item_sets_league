@@ -30,8 +30,9 @@
     print ('<div class="container">');
     print ('    <div class="row">');
     print ('        <div class="col-md-4">');
-    foreach($data['data'][$_GET['champion']]['stats'] as $stat) {
-        print("$stat => $data['data'][$_GET['champion']]['stats'][$stat] <br>");
+    print ('            <h2>Stats</h2>')
+    foreach($data['data'][$_GET['champion']]['stats'] as $stat => $value) {
+        print("$stat => $value <br>");
     }
     print ('        </div>');
     print ('   </div>');
