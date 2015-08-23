@@ -11,7 +11,7 @@
             if (isset($_GET['champion'])) {
                 $champion_key = $_GET['champion'];
                 $file_path = 'data/'.$lang.'/champion'.'/'.$champion_key.'.json';
-                print ("$file_path is where my json file is <br>");
+                //print ("$file_path is where my json file is <br>");
                 $local_file = file_get_contents($file_path);
                 $data = json_decode($local_file, true);
                 $name = $data['data'][$_GET['champion']]['name'];
