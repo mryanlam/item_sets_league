@@ -10,8 +10,10 @@
             //Champion Name as header
             if (isset($_GET['champion'])) {
                 $champion_key = $_GET['champion'];
-                print ("data/$lang/$champion_key.json is where my json file is <br>");
-                $data = json_decode(file_get_contents("data/$lang/$champion_key.json"), true);
+                $file_path = 'data/'.$lang.'/champion'.'/'.$champion_key.'.json';
+                print ("$file_path is where my json file is <br>");
+                $local_file = file_get_contents($file_path);
+                $data = json_decode($local_file, true);
                 $name = $data['data'][$_GET['champion']]['name'];
                 $title = $data['data'][$_GET['champion']]['title'];
                 $image = $data['data'][$_GET['champion']]['image']['full'];
@@ -23,7 +25,9 @@
             }
     print ('    </div>'."\n");
     print ('</div>'."\n");
-
-    print ('<hr>');
+?>
+    <hr>
+    <div class="container">
+<?php
     include "static/footer.php";
 ?>
