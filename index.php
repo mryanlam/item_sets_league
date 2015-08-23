@@ -37,9 +37,9 @@
         <!-- Example row of columns -->
         <div class="row">
             <div class="col-md-4">
-                <h2>Annie display picture</h2>
-                <p>Link that will take user to detailed page about Annie </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+                <h2>Vayne display picture</h2>
+                <p>Link that will take user to detailed page about Vayne </p>
+                <p><a class="btn btn-default" href="champion.php?champion=Vayne" role="button">View details &raquo;</a></p>
             </div>
             <div class="col-md-4">
                 <h2>Heading</h2>
