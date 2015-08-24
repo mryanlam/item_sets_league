@@ -81,7 +81,7 @@
     print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>");
     print('</table>');
     print('        </div>');
-    $guide_path = 'guides/'.$champion_key.'php';
+    $guide_path = 'guides/'.$champion_key.'.php';
     print "Attempting to load $guide_path<br>";
     include $guide_path;
     print('   </div>');
