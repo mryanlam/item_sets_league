@@ -38,7 +38,7 @@
     print('        <div class="col-md-4">');
     print('            <h2>Stats</h2>');
     print('                  <table class="table table-condensed">');
-    print('                     <thead><tr><th>Base Stats</th><th>Formula</th></tr></thead><tbody>');
+    print("                     <thead>\n<tr>\n<th>Base Stats</th>\n<th>Formula</th>\n</tr>\n</thead>\n<tbody>\n");
     // foreach($data['data'][$_GET['champion']]['stats'] as $stat => $value) {
     //     print("$stat => $value <br>");
     // }
