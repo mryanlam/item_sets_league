@@ -44,42 +44,42 @@
     //Health
     $hp = $data['data'][$_GET['champion']]['stats']['hp'];
     $hppl = $data['data'][$_GET['champion']]['stats']['hpperlevel'];
-    print('<tr><td>Health</td><td>'.$hp.'+('.$hppl." per level)</td></tr>\n");
+    print('<tr><td>Health</td><td>'.$hp.'+('.$hppl." per level)</td></tr>");
     //Health Regen
     $hp_regen = $data['data'][$_GET['champion']]['stats']['hpregen'];
     $hp_regenpl = $data['data'][$_GET['champion']]['stats']['hpregenperlevel'];
-    print('<tr><td>Health Regen</td><td>'.$hp_regen.'+('.$hp_regenpl." per level) </td></tr>\n");
+    print('<tr><td>Health Regen</td><td>'.$hp_regen.'+('.$hp_regenpl." per level) </td></tr>");
     //Mana
     $mp = $data['data'][$_GET['champion']]['stats']['mp'];
     $mppl = $data['data'][$_GET['champion']]['stats']['mpperlevel'];
-    print('<tr><td>Mana</td><td>'.$mana.'+('.$mppl." per level) </td></tr>\n");
+    print('<tr><td>Mana</td><td>'.$mana.'+('.$mppl." per level) </td></tr>");
     //Mana Regen
     $mp_regen = $data['data'][$_GET['champion']]['stats']['mpregen'];
     $mp_regenpl = $data['data'][$_GET['champion']]['stats']['mpregenperlevel'];
-    print('<tr><td>Mana Regen</td><td>'.$mp_regen.'+('.$mp_regenpl." per level) </td></tr>\n");
+    print('<tr><td>Mana Regen</td><td>'.$mp_regen.'+('.$mp_regenpl." per level) </td></tr>");
     //Attack Range
     $attack_range = $data['data'][$_GET['champion']]['stats']['attackrange'];
-    print('<tr><td>Attack Range</td><td>'.$attack_range."</td></tr>\n");
+    print('<tr><td>Attack Range</td><td>'.$attack_range."</td></tr>");
     //Attack Damage
     $ad = $data['data'][$_GET['champion']]['stats']['attackdamage'];
     $adpl = $data['data'][$_GET['champion']]['stats']['attackdamageperlevel'];
-    print('<tr><td>Attack Damage</td><td>'.$ad.'+('.$adpl." per level) </td></tr>\n");
+    print('<tr><td>Attack Damage</td><td>'.$ad.'+('.$adpl." per level) </td></tr>");
     //Calculate Attackspeed
     $base_as = 0.625/($data['data'][$_GET['champion']]['stats']['attackspeedoffset'] + 1);
     $aspl = $data['data'][$_GET['champion']]['stats']['attackspeedperlevel'];
-    print('<tr><td>Attack Speed</td><td>'.$base_as.'*('.$aspl." * (current level - 1)) </td></tr>\n");
+    print('<tr><td>Attack Speed</td><td>'.$base_as.'*('.$aspl." * (current level - 1)) </td></tr>");
     //Armor
     $armor = $data['data'][$_GET['champion']]['stats']['armor'];
     $armorpl = $data['data'][$_GET['champion']]['stats']['armorperlevel'];
-    print('<tr><td>Armor</td><td>'.$armor.'+('.$armorpl." per level) </td></tr>\n");
+    print('<tr><td>Armor</td><td>'.$armor.'+('.$armorpl." per level) </td></tr>");
     //Magic Resist
     $mr = $data['data'][$_GET['champion']]['stats']['spellblock'];
     $mrpl = $data['data'][$_GET['champion']]['stats']['spellblockperlevel'];
-    print('<tr><td>Magic Resist</td><td>'.$mr.'+('.$mrpl." per level) </td></tr>\n");
+    print('<tr><td>Magic Resist</td><td>'.$mr.'+('.$mrpl." per level) </td></tr>");
     //Move Speed
     $ms = $data['data'][$_GET['champion']]['stats']['movespeed'];
-    print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>\n");
-    print('<\table>');
+    print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>");
+    print('</table>');
     print('        </div>');
     print('   </div>');
     print('<hr>');
