@@ -81,6 +81,7 @@
     print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>");
     print('</table>');
     print('        </div>');
+    include "guides/".$_GET['champion']."php";
     print('   </div>');
     print('<hr>');
 
