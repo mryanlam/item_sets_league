@@ -82,6 +82,7 @@
     print('</table>');
     print('        </div>');
     $guide_path = 'guides/'.$champion_key.'php';
+    print "Attempting to load $guidepath<br>";
     include $guide_path;
     print('   </div>');
     print('<hr>');
