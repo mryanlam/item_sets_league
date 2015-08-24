@@ -1,5 +1,5 @@
 <? //Generate text file on the fly
-    if (isset($_POST['build'])) {
+    if (isset($_POST['submit'])) {
         //print("<p> The contents of the file are </p> <br>");
         $contents= file_get_contents($_FILES['file']['tmp_name']);
         //print ($contents);
