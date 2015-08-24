@@ -38,7 +38,6 @@
     print('        <div class="col-md-4">');
     print('            <h2>Stats</h2>');
     print('                  <table class="table table-condensed">');
-    print("                     <thead>\n<tr>\n<th>Base Stats</th>\n<th>Formula</th>\n</tr>\n</thead>\n<tbody>\n");
     // foreach($data['data'][$_GET['champion']]['stats'] as $stat => $value) {
     //     print("$stat => $value <br>");
     // }
@@ -80,7 +79,7 @@
     //Move Speed
     $ms = $data['data'][$_GET['champion']]['stats']['movespeed'];
     print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>\n");
-    print('<\tbody><\table>');
+    print('<\table>');
     print('        </div>');
     print('   </div>');
     print('<hr>');
