@@ -10,7 +10,7 @@
     <img src="img/item/3153.png" alt="Blade of the ruined king">
 </div>
 <div class="col-md-4">
-    <img src="img/item/3153.png" alt="Blade of the ruined king">
+    <img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
     <h2>Blade of the Ruined King</h2>
     <hr>
     <b>Gold Value</b><br>
@@ -34,7 +34,7 @@
     </ul>
 </div>
 <div class="col-md-4">
-    <img src="img/item/3046.png" alt="Phantom Dancer">
+    <img src="img/item/3046.png" alt="Phantom Dancer" width="42" height="42" align="left">
     <h2>Phantom Dancer</h2>
     <hr>
     <b>Gold Value</b><br>
