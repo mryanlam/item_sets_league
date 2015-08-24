@@ -52,7 +52,7 @@
     //Mana
     $mp = $data['data'][$_GET['champion']]['stats']['mp'];
     $mppl = $data['data'][$_GET['champion']]['stats']['mpperlevel'];
-    print('<tr><td>Mana</td><td>'.$mana.'+('.$mppl." per level) </td></tr>");
+    print('<tr><td>Mana</td><td>'.$mp.'+('.$mppl." per level) </td></tr>");
     //Mana Regen
     $mp_regen = $data['data'][$_GET['champion']]['stats']['mpregen'];
     $mp_regenpl = $data['data'][$_GET['champion']]['stats']['mpregenperlevel'];
