@@ -81,7 +81,8 @@
     print('<tr><td>Move Speed</td><td>'.$ms."</td></tr>");
     print('</table>');
     print('        </div>');
-    include "guides/".$champion_key."php";
+    $guide_path = 'guides/'.$champion_key.'php';
+    include $guide_path;
     print('   </div>');
     print('<hr>');
 
