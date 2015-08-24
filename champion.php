@@ -4,9 +4,11 @@
     if (isset($_GET['language'])) {
         $lang = $_GET['language'];
     }
-    print('<!-- Main jumbotron for a primary marketing message or call to action -->');
-    print('<div class="jumbotron">'."\n");
-    print('    <div class="container">'."\n");
+    print(' <!-- Main jumbotron for a primary marketing message or call to action -->');
+    print(' <div class="jumbotron">'."\n");
+    print('     <div class="container">'."\n");
+    print('         <div class="row">');
+    print('             <div class="col-md-4">');
             //Champion Name as header
             if (isset($_GET['champion'])) {
                 $champion_key = $_GET['champion'];
@@ -18,8 +20,12 @@
                 $title = $data['data'][$_GET['champion']]['title'];
                 $image = $data['data'][$_GET['champion']]['image']['full'];
                 print('<img src="img/champion/'.$image.'" alt="'.$name.'">');
+                print('    </div>'."\n");
+                print('             <div class="col-md-4">');
                 print("<h1>$name</h1>");
                 print("<p>$title</p>");
+                print('    </div>'."\n");
+                print('</div>'."\n");
             } else {
                 print('<h1>ERROR: Champion not specified</h1> <br>');
             }
