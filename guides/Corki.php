@@ -6,11 +6,13 @@
     <img src="img/item/3140.png" alt="Quicksilver Sash">
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
+
 <div class="cold-md-4"
-<h2> Short Champion Summary </h2><br>
-<p> Corki is known as a high dps AD carry known for bursting down enemies with mixed damage!</p>
-<p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
+    <h2> Short Champion Summary </h2><br>
+    <p> Corki is known as a high dps AD carry known for bursting down enemies with mixed damage!</p>
+    <p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
 </div>
+
 <div class="col-md-4">
     <img src="img/item/3078.png" alt="Trinity Force" width="42" height="42" align="left">
     <h2>Trinity Force</h2>
@@ -35,7 +37,8 @@
         <li>On manaless champions, Trinity Force is 111.15% gold efficient, without its two passives.</li>
     </ul>
 </div>
-<img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
+<div class="col-md-4">
+    <img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
     <h2>Blade of the Ruined King</h2>
     <hr>
     <b>Gold Value</b><br>
@@ -58,23 +61,25 @@
         <li>For the item to be considered 100% gold efficient, the passive and active would need to have a combined gold value of 350.</li>
     </ul>
 </div>
+
 <div class="col-md-4">
-<img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
-<h4> Last Whisperer </h4>
-<hr>
-<b> Gold Value </b><br>
-<ul>
-    <li>40 attack damage</li>
-    <li>passive -> UNIQUE: Physical damage ignores 35% of the target's armor (applies before armor penetration).</li>
-</ul>
-<hr>
-<b> Gold Value </b><br>
-<p> +40 attack damage = 1440 Gold</p>
-<p> Last Whisperer is 62.5% efficient </p>
-<p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
-</ul>
+    <img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
+    <h4> Last Whisperer </h4>
+    <hr>
+    <b> Gold Value </b><br>
+    <ul>
+        <li>40 attack damage</li>
+        <li>passive -> UNIQUE: Physical damage ignores 35% of the target's armor (applies before armor penetration).</li>
+    </ul>
+    <hr>
+    <b> Gold Value </b><br>
+    <p> +40 attack damage = 1440 Gold</p>
+    <p> Last Whisperer is 62.5% efficient </p>
+    <p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
+    </ul>
 </div>
-div class="col-md-4">
+
+<div class="col-md-4">
     <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
     <h2>Mecurial Sceptor</h2>
     <hr>
@@ -87,10 +92,11 @@ div class="col-md-4">
     <hr>
     <b>Gold Value</b><br>
     <p>80 attack damage = 2880 , 35 magic resist = 700 </p>  <br>
-    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
     <hr>
     <b>Gold Efficiency</b><br>
+    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
 </div>
+
 <div class="col-md-4">
     <img src="img/item/3072.png" alt="Bloodthirster" width="42" height="42" align="left">
     <h2>Blood Thirster</h2>

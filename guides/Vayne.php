@@ -50,44 +50,44 @@
     </ul>
 </div>
 <div class="col-md-4">
-<img src="img/item/3087.png" alt="Statikk Shiv" width="42" height="42" align="left">
-<h3> Statikk Shiv</h3>
-<hr>
-<b>Gold Value</b><br>
-<ul>
-    <li>+40% attack speed </li>
-    <li>+5% movement speed </li>
-    <li>+35% critical strike chance </li>
-</ul>
-<hr>
-<b>Gold value</b><br>
-<p>UNIQUE: Moving and attacking builds Static Charges. At 100 charges, your next attack expends the charges to deal 100 magic damage to up to 4 targets. This damage can critically strike.</p>
-<hr>
-<b>Gold Efficiency</b><br>
-<ul>
-    <li>Statikk Shiv is 97.5% gold efficient.</li>
-</ul>
-</div>
-<div class="col-md-4">
-<img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
-<h4> Last Whisperer </h4>
-<hr>
-<b> Gold Value </b><br>
-<ul>
-    <li>40 attack damage</li>
-    <li>passive -> UNIQUE: Physical damage ignores 35% of the target's armor (applies before armor penetration).</li>
-</ul>
-<hr>
-<b> Gold Value </b><br>
-<p> +40 attack damage = 1440 Gold</p>
-<p> Last Whisperer is 62.5% efficient </p>
-<p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
-</ul>
+    <img src="img/item/3087.png" alt="Statikk Shiv" width="42" height="42" align="left">
+    <h2> Statikk Shiv</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>+40% attack speed </li>
+        <li>+5% movement speed </li>
+        <li>+35% critical strike chance </li>
+    </ul>
+    <hr>
+    <b>Gold value</b><br>
+    <p>UNIQUE: Moving and attacking builds Static Charges. At 100 charges, your next attack expends the charges to deal 100 magic damage to up to 4 targets. This damage can critically strike.</p>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <ul>
+        <li>Statikk Shiv is 97.5% gold efficient.</li>
+    </ul>
 </div>
 
 <div class="col-md-4">
-    <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
-    <h2>Mecurial Sceptor</h2>
+    <img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
+    <h2> Last Whisperer </h2>
+    <hr>
+    <b> Gold Value </b><br>
+    <ul>
+        <li>40 attack damage</li>
+        <li>passive -> UNIQUE: Physical damage ignores 35% of the target's armor (applies before armor penetration).</li>
+    </ul>
+    <hr>
+    <b> Gold Value </b><br>
+    <p> +40 attack damage = 1440 Gold</p>
+    <p> Last Whisperer is 62.5% efficient </p>
+    <p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
+</div>
+
+<div class="col-md-4">
+    <img src="img/item/3139.png" alt="Mecurial Scimitar" width="42" height="42" align="left">
+    <h2>Mecurial Scimitar</h2>
     <hr>
     <b>Gold Value</b><br>
     <ul>
@@ -98,7 +98,7 @@
     <hr>
     <b>Gold Value</b><br>
     <p>80 attack damage = 2880 , 35 magic resist = 700 </p>  <br>
-    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
     <hr>
     <b>Gold Efficiency</b><br>
+    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
 </div>
