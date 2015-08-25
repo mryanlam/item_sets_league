@@ -7,7 +7,7 @@
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
 
-<div class="col-md-4"
+<div class="col-md-4">
     <h2> Short Champion Summary </h2><br>
     <p> Corki is known as a high dps AD carry known for bursting down enemies with mixed damage!</p>
     <p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
@@ -68,7 +68,7 @@
 
 <div class="col-md-4">
     <img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
-    <h4> Last Whisperer </h4>
+    <h2> Last Whisperer </h2>
     <hr>
     <b> Gold Value </b><br>
     <ul>
@@ -85,7 +85,7 @@
 
 </div>
 <div class="row">
-    
+
 <div class="col-md-4">
     <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
     <h2>Mecurial Sceptor</h2>
