@@ -9,7 +9,7 @@
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
 
-<div class="col-md-4"
+<div class="col-md-4">
     <h2> Short Champion Summary </h2><br>
     <p> Vayne is known as a hyper carry for her late game scaling and carry abilities</p>
     <p> Our guide will pinpoint key items that are both gold efficient and help with her scaling </p>
