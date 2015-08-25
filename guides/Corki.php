@@ -1,20 +1,41 @@
 <div class="col-md-4">
     <h2>Standard item build</h2><br>
+    <img src="img/item/3078.png" alt="Trinity Force">
     <img src="img/item/3153.png" alt="Blade of the Ruined King">
-    <img src="img/item/3087.png" alt="Static Shiv">
-    <img src="img/item/3046.png" alt="Phantom Dancer">
-    <img src="img/item/3006.png" alt="Berzerker Greaves">
     <img src="img/item/3035.png" alt="Last Whisper">
     <img src="img/item/3140.png" alt="Quicksilver Sash">
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
 <div class="cold-md-4"
 <h2> Short Champion Summary </h2><br>
-<p> Vayne is known as a hyper carry for her late game scaling and carry abilities</p>
-<p> Our guide will pinpoint key items that are both gold efficient and help with her scaling </p>
+<p> Corki is known as a high dps AD carry known for bursting down enemies with mixed damage!</p>
+<p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
 </div>
 <div class="col-md-4">
-    <img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
+    <img src="img/item/3078.png" alt="Trinity Force" width="42" height="42" align="left">
+    <h2>Trinity Force</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>250 health = 666.67 gold</li>
+        <li>200 mana = 400 gold </li>
+        <li>30 attack damage = 1080 gold </li>
+        <li>30 ability power = 652.5 gold</li>
+        <li>30% attack speed = 900 gold</li>
+        <li>10% critical strike = 500 gold </li>
+        <li>Total gold value = 4516 gold</li>
+    </ul>
+    <hr>
+    <b>Gold Value</b><br>
+    <p>(Passive 1: UNIQUE – RAGE: Basic attacks grant 20 movement speed for 2 seconds on hit. Minion, monster, and champion kills grant 60 movement speed for 2 seconds. The movement speed bonus is halved for ranged champions.Passive 2:  SPELLBLADE: After using an ability, your next basic attack deals 200% base AD bonus physical damage. (1.5 second cooldown).). </p>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <ul>
+        <li>Trinity Force is 121.96% gold efficient without its two passives.</li>
+        <li>On manaless champions, Trinity Force is 111.15% gold efficient, without its two passives.</li>
+    </ul>
+</div>
+<img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
     <h2>Blade of the Ruined King</h2>
     <hr>
     <b>Gold Value</b><br>
@@ -38,37 +59,6 @@
     </ul>
 </div>
 <div class="col-md-4">
-    <img src="img/item/3046.png" alt="Phantom Dancer" width="42" height="42" align="left">
-    <h2>Phantom Dancer</h2>
-    <hr>
-    <b>Gold Value</b><br>
-    <ul>
-        <li>50% attack speed = 1500 </li>
-        <li>35% critical strike chance = 1750 </li>
-        <li>5% movement speed = 198 </li>
-        <li>Total Gold Value = 3448 </li>
-    </ul>
-</div>
-<div class="col-md-4">
-<img src="img/item/3087.png" alt="Statikk Shiv" width="42" height="42" align="left">
-<h3> Statikk Shiv</h3>
-<hr>
-<b>Gold Value</b><br>
-<ul>
-    <li>+40% attack speed </li>
-    <li>+5% movement speed </li>
-    <li>+35% critical strike chance </li>
-</ul>
-<hr>
-<b>Gold value</b><br>
-<p>UNIQUE: Moving and attacking builds Static Charges. At 100 charges, your next attack expends the charges to deal 100 magic damage to up to 4 targets. This damage can critically strike.</p>
-<hr>
-<b>Gold Efficiency</b><br>
-<ul>
-    <li>Statikk Shiv is 97.5% gold efficient.</li>
-</ul>
-</div>
-<div class="col-md-4">
 <img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
 <h4> Last Whisperer </h4>
 <hr>
@@ -84,8 +74,7 @@
 <p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
 </ul>
 </div>
-
-<div class="col-md-4">
+div class="col-md-4">
     <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
     <h2>Mecurial Sceptor</h2>
     <hr>
@@ -101,4 +90,24 @@
     <p>Mercurial Scimitar is 96.75% gold efficient.</p>
     <hr>
     <b>Gold Efficiency</b><br>
+</div>
+<div class="col-md-4">
+    <img src="img/item/3072.png" alt="Bloodthirster" width="42" height="42" align="left">
+    <h2>Blood Thirster</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>80 attack damage = 2880</li>
+        <li>20% life steal = 1100</li>
+        <li>Total Gold Value = 3980 </li>
+    </ul>
+    <hr>
+    <b>Gold Value</b><br>
+    <p>UNIQUE: +20% life steal</p>
+    <p>UNIQUE: Your life steal overheals you, converting the excess healing into a shield that absorbs up to 50-350 damage and decays when out of combat for 25 seconds.</p>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <ul>
+        <li>he Bloodthirster's base stats are 113.7% gold efficient.</li>
+    </ul>
 </div>
