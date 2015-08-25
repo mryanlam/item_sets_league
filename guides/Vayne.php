@@ -8,11 +8,13 @@
     <img src="img/item/3140.png" alt="Quicksilver Sash">
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
-<div class="cold-md-4"
-<h2> Short Champion Summary </h2><br>
-<p> Vayne is known as a hyper carry for her late game scaling and carry abilities</p>
-<p> Our guide will pinpoint key items that are both gold efficient and help with her scaling </p>
+
+<div class="col-md-4"
+    <h2> Short Champion Summary </h2><br>
+    <p> Vayne is known as a hyper carry for her late game scaling and carry abilities</p>
+    <p> Our guide will pinpoint key items that are both gold efficient and help with her scaling </p>
 </div>
+
 <div class="col-md-4">
     <img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
     <h2>Blade of the Ruined King</h2>

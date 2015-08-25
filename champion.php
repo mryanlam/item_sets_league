@@ -8,7 +8,7 @@
     print(' <div class="jumbotron">'."\n");
     print('     <div class="container">'."\n");
     print('         <div class="row">');
-    print('             <div class="col-md-4">');
+    print('             <div class="col-md-2">');
             //Champion Name as header
             if (isset($_GET['champion'])) {
                 $champion_key = $_GET['champion'];

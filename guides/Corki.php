@@ -7,7 +7,7 @@
     <img src="img/item/3072.png" alt="Bloodthirster">
 </div>
 
-<div class="cold-md-4"
+<div class="col-md-4"
     <h2> Short Champion Summary </h2><br>
     <p> Corki is known as a high dps AD carry known for bursting down enemies with mixed damage!</p>
     <p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
