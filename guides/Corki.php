@@ -13,6 +13,9 @@
     <p> Our guide will explain the gold efficiency of Trinity Force AD carries! </p>
 </div>
 
+</div>
+<div class="row">
+
 <div class="col-md-4">
     <img src="img/item/3078.png" alt="Trinity Force" width="42" height="42" align="left">
     <h2>Trinity Force</h2>
@@ -37,6 +40,7 @@
         <li>On manaless champions, Trinity Force is 111.15% gold efficient, without its two passives.</li>
     </ul>
 </div>
+
 <div class="col-md-4">
     <img src="img/item/3153.png" alt="Blade of the ruined king" width="42" height="42" align="left">
     <h2>Blade of the Ruined King</h2>
@@ -79,6 +83,9 @@
     </ul>
 </div>
 
+</div>
+<div class="row">
+    
 <div class="col-md-4">
     <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
     <h2>Mecurial Sceptor</h2>
