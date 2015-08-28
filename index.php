@@ -41,15 +41,15 @@
                             $quantity = $item['count'];
                             $item_id = $item['id'];
                             $api_url = $api_url_head.$item_id.$api_url_tail;
-                            //$item_json = file_get_contents($api_url);
+                            $item_json = file_get_contents($api_url);
                 			//$item_json = file_get_contents_curl($api_url);
-                            $ch = curl_init($api_url);
-                			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-                			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
-                			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-                			$item_json = curl_exec($ch);
-                			$responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-                			curl_close($ch);
+                            // $ch = curl_init($api_url);
+                			// curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                			// curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                			// curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                			// $item_json = curl_exec($ch);
+                			// $responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                			// curl_close($ch);
                             // if ($responseCode == 200) {
                             $item_data = json_decode($item_json, true);
                             $img_name = $item_data['image']['full'];
@@ -60,7 +60,7 @@
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
                                 print("Query was ".$api_url."<br>");
-                                print("Response Code was ".$responseCode."<br>");
+                                //print("Response Code was ".$responseCode."<br>");
                                 print("Item JSON <br>");
                                 var_dump($item_json);
                                 print("Item Data <br>");
