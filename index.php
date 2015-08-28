@@ -37,7 +37,7 @@
                 			// $this->responseCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
                 			// curl_close($curl);
                             // if ($this->responseCode == 200) {
-                                $item_data = json_decode($item_data, true);
+                                $item_data = json_decode($item_json, true);
                                 $img_name = $item_data['image']['full'];
                                 $item_name = $item_data['name'];
                                 $item_description = $item_data['sanitizedDescription'];
@@ -45,7 +45,9 @@
                             // }
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
-                                print("Query was ".$api_url);
+                                print("Query was ".$api_url."<br>");
+
+                                //var_dump($item_data);
                             //}
                         }
                     }
