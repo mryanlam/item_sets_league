@@ -11,6 +11,8 @@
                     //print("<p> The contents of the file are </p> <br>");
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
                     //print ($contents);
+                    $api_key = file_get_contents('api.key'); // API Key is stored as a plaintext file in the webserver.
+                    //API calls to /api/lol/static-data/en_US/v1.2/item/<item id> are not counted towards rate limit
                     $data = json_decode($contents, true);
                     $champion = $data['champion'];
                     $map = $data['mode'];
