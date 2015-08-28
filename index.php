@@ -41,15 +41,21 @@
                             $quantity = $item['count'];
                             $item_id = $item['id'];
                             $api_url = $api_url_head.$item_id.$api_url_tail;
-                            $item_json = file_get_contents($api_url);
+                            //$item_json = file_get_contents($api_url);
                 			//$item_json = file_get_contents_curl($api_url);
-
-                            // if ($this->responseCode == 200) {
-                                $item_data = json_decode($item_json, true);
-                                $img_name = $item_data['image']['full'];
-                                $item_name = $item_data['name'];
-                                $item_description = $item_data['sanitizedDescription'];
-                                print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
+                            $ch = curl_init($api_url);
+                			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+                			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
+                			$result = curl_exec($ch);
+                			$responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+                			curl_close($ch);
+                            // if ($responseCode == 200) {
+                            $item_data = json_decode($item_json, true);
+                            $img_name = $item_data['image']['full'];
+                            $item_name = $item_data['name'];
+                            $item_description = $item_data['sanitizedDescription'];
+                            print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
                             // }
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
