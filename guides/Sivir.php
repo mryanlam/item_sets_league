@@ -12,6 +12,7 @@
     <p> Sivir is one of the top team fighting AD carries that utilizes her ults to carry her team in team fights!</p>
     <p> Our guide will pinpoint key items that will maximize her team fighting abilities </p>
 </div>
+
 </div>
 <div class="row">
 
@@ -23,7 +24,7 @@
     <ul>
         <li>80 attack damage = 2880 gold </li>
         <li>20% critical strike chance = 1000 </li>
-        <li>Total Gold Value = 3880 </li>     
+        <li>Total Gold Value = 3880 </li>
     </ul>
     <hr>
     <b>Gold Value</b><br>
@@ -31,7 +32,7 @@
     <hr>
     <b>Gold Efficiency</b><br>
     <ul>
-        <li>Infinity Edge is 102.1% gold efficient without its passive.</li> 
+        <li>Infinity Edge is 102.1% gold efficient without its passive.</li>
     </ul>
 </div>
 
@@ -43,7 +44,7 @@
     <ul>
         <li>25% attack speed = 750 gold </li>
         <li>45 movement speed = 585 gold </li>
-        <li>Total Gold Value = 1335 </li>     
+        <li>Total Gold Value = 1335 </li>
     </ul>
     <hr>
     <b>Gold Value</b><br>
@@ -51,7 +52,7 @@
     <hr>
     <b>Gold Efficiency</b><br>
     <ul>
-        <li>Berserker's Greaves are 133.5% gold efficient.</li> 
+        <li>Berserker's Greaves are 133.5% gold efficient.</li>
     </ul>
 </div>
 
@@ -67,6 +68,9 @@
         <li>Total Gold Value = 3448 </li>
     </ul>
 </div>
+
+</div>
+<div class="row">
 
 <div class="col-md-4">
     <img src="img/item/3035.png" alt="Last Whisperer" width="42" height="42" align="left">
