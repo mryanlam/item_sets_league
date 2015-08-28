@@ -60,12 +60,12 @@
                             // }
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
-                                print("Query was !!!!".$api_url."!!!!<br>");
-                                //print("Response Code was ".$responseCode."<br>");
-                                print("Item JSON <br>");
-                                var_dump($item_json);
-                                print("Item Data <br>");
-                                var_dump($item_data);
+                                // print("Query was !!!!".$api_url."!!!!<br>");
+                                // //print("Response Code was ".$responseCode."<br>");
+                                // print("Item JSON <br>");
+                                // var_dump($item_json);
+                                // print("Item Data <br>");
+                                // var_dump($item_data);
                             //}
                         }
                     }
