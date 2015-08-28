@@ -47,7 +47,7 @@
                 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
                 			curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
                 			curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
-                			$result = curl_exec($ch);
+                			$item_json = curl_exec($ch);
                 			$responseCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
                 			curl_close($ch);
                             // if ($responseCode == 200) {
@@ -60,6 +60,7 @@
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
                                 print("Query was ".$api_url."<br>");
+                                print("Response Code was ".$responseCode."<br>");
                                 print("Item JSON <br>");
                                 var_dump($item_json);
                                 print("Item Data <br>");
