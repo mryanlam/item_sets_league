@@ -25,7 +25,8 @@
                     //print("<p> The contents of the file are </p> <br>");
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
                     //print ($contents);
-                    $api_key = file_get_contents('api.key'); // API Key is stored as a plaintext file in the webserver.
+                    $temp_key = file_get_contents('api.key'); // API Key is stored as a plaintext file in the webserver.
+                    $api_key = rtrim($temp_key);
                     $api_url_head = 'https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/';
                     $api_url_tail = '?locale=en_US&itemData=all&api_key='.$api_key;
                     //https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/1001?locale=en_US&itemData=all&api_key=<API KEY>
