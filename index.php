@@ -32,7 +32,7 @@
                             $img_name = $item_data['image']['full'];
                             $item_name = $item_data['name'];
                             $item_description = $item_data['sanitizedDescription'];
-                            print($quantity." of <img src=\"img/item/"$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
+                            print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
                         }
                     }
 
