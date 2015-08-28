@@ -12,17 +12,27 @@
                     $contents= file_get_contents($_FILES['file']['tmp_name']);
                     //print ($contents);
                     $api_key = file_get_contents('api.key'); // API Key is stored as a plaintext file in the webserver.
+                    $api_url_head = 'https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/';
+                    $api_url_tail = '?locale=en_US&itemData=all&api_key='.$api_key;
+                    //https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/1001?locale=en_US&itemData=all&api_key=<API KEY>
                     //API calls to /api/lol/static-data/en_US/v1.2/item/<item id> are not counted towards rate limit
-                    $data = json_decode($contents, true);
-                    $champion = $data['champion'];
-                    $map = $data['mode'];
-                    $title = $data['title'];
+                    $itemset_data = json_decode($contents, true);
+                    $champion = $itemset_data['champion'];
+                    $map = $itemset_data['mode'];
+                    $title = $itemset_data['title'];
                     print("<p> This is an itemset for ".$champion." on the map ".$map." named ".$title."</p><br>");
-                    foreach ($data['blocks'] as $block) {
+                    foreach ($itemset_data['blocks'] as $block) {
                         print("<p>".$block['type']."</p><br>");
                         foreach ($block['items'] as $item) {
                             $quantity = $item['count'];
-                            print($quantity." of item number ".$item['id']."<br>");
+                            $item_id = $item['id'];
+                            $api_url = $api_url_head.$item_id.$api_url_tail;
+                            $item_json = file_get_contents($api_url);
+                            $item_data = json_decode($item_data, true);
+                            $img_name = $item_data['image']['full'];
+                            $item_name = $item_data['name'];
+                            $item_description = $item_data['sanitizedDescription'];
+                            print($quantity." of <img src=\"img/item/"$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
                         }
                     }
 
