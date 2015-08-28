@@ -27,12 +27,26 @@
                             $quantity = $item['count'];
                             $item_id = $item['id'];
                             $api_url = $api_url_head.$item_id.$api_url_tail;
-                            $item_json = file_get_contents($api_url);
-                            $item_data = json_decode($item_data, true);
-                            $img_name = $item_data['image']['full'];
-                            $item_name = $item_data['name'];
-                            $item_description = $item_data['sanitizedDescription'];
-                            print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
+                            //$item_json = file_get_contents($api_url);
+
+                            //call the API and return the result
+                			$curl = curl_init($url);
+                			curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
+                			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
+                			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
+                			$item_json = curl_exec($curl);
+                			$this->responseCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
+                			curl_close($curl);
+                            if ($this->responseCode == 200) {
+                                $item_data = json_decode($item_data, true);
+                                $img_name = $item_data['image']['full'];
+                                $item_name = $item_data['name'];
+                                $item_description = $item_data['sanitizedDescription'];
+                                print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
+                            }
+                            else {
+                                print("API ERROR ".$this->responseCode);
+                            }
                         }
                     }
 
