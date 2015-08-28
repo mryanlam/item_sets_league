@@ -56,7 +56,7 @@
                             $img_name = $item_data['image']['full'];
                             $item_name = $item_data['name'];
                             $item_description = $item_data['sanitizedDescription'];
-                            print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description."\"> </a> <br>");
+                            print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a> <br>');
                             // }
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
