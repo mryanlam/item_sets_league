@@ -59,7 +59,7 @@
                             // }
                             // else {
                                 //print("API ERROR ".$this->responseCode."<br>");
-                                print("Query was ".$api_url."<br>");
+                                print("Query was !!!!".$api_url."!!!!<br>");
                                 //print("Response Code was ".$responseCode."<br>");
                                 print("Item JSON <br>");
                                 var_dump($item_json);
