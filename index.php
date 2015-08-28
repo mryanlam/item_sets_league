@@ -30,7 +30,7 @@
                             //$item_json = file_get_contents($api_url);
 
                             //call the API and return the result
-                			$curl = curl_init($url);
+                			$curl = curl_init($api_url);
                 			curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
                 			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
                 			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
@@ -45,7 +45,8 @@
                                 print($quantity." of <img src=\"img/item/".$img_name."\" alt=\"".$item_name." ".$item_description."\"> <br>");
                             }
                             else {
-                                print("API ERROR ".$this->responseCode);
+                                print("API ERROR ".$this->responseCode."<br>");
+                                print("Query was ".$api_url);
                             }
                         }
                     }
