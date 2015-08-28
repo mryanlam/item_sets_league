@@ -41,8 +41,8 @@
                             $quantity = $item['count'];
                             $item_id = $item['id'];
                             $api_url = $api_url_head.$item_id.$api_url_tail;
-                            //$item_json = file_get_contents($api_url);
-                			$item_json = file_get_contents_curl($api_url);
+                            $item_json = file_get_contents($api_url);
+                			//$item_json = file_get_contents_curl($api_url);
 
                             // if ($this->responseCode == 200) {
                                 $item_data = json_decode($item_json, true);
