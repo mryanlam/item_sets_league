@@ -6,6 +6,20 @@
     <div class="jumbotron">
         <div class="container">
             <?php
+
+                function file_get_contents_curl($url) {
+                    $ch = curl_init();
+
+                    curl_setopt($ch, CURLOPT_HEADER, 0);
+                    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); //Set curl to return the data instead of printing it to the browser.
+                    curl_setopt($ch, CURLOPT_URL, $url);
+
+                    $data = curl_exec($ch);
+                    curl_close($ch);
+
+                    return $data;
+                }
+
                 //If there is a file, open it and interpret it's results
                 if (isset($_POST['submit'])) {
                     //print("<p> The contents of the file are </p> <br>");
@@ -28,14 +42,8 @@
                             $item_id = $item['id'];
                             $api_url = $api_url_head.$item_id.$api_url_tail;
                             //$item_json = file_get_contents($api_url);
-                            //call the API and return the result
-                			$curl = curl_init($api_url);
-                			curl_setopt($curl, CURLOPT_RETURNTRANSFER, 1);
-                			curl_setopt($curl, CURLOPT_SSL_VERIFYPEER, false);
-                			curl_setopt($curl, CURLOPT_SSL_VERIFYHOST, false);
-                			$item_json = curl_exec($curl);
-                			$this->responseCode = curl_getinfo($curl, CURLINFO_HTTP_CODE);
-                			curl_close($curl);
+                			$item_json = file_get_contents_curl($curl);
+
                             // if ($this->responseCode == 200) {
                                 $item_data = json_decode($item_json, true);
                                 $img_name = $item_data['image']['full'];
