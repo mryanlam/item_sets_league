@@ -33,6 +33,7 @@
                     print("<h1> This is an itemset for ".$champion." on the map ".$map." named ".$title."</h1><br>");
                     foreach ($itemset_data['blocks'] as $block) {
                         print("<h2>".$block['type']."</h2><br>");
+                        print('<table class="table table-condensed"> <thead> <tr><th>Item</th><th>Gold Efficiency</th></tr></thead><tbody>');
                         foreach ($block['items'] as $item) {
                             $quantity = $item['count'];
                             $item_id = $item['id'];
@@ -43,11 +44,16 @@
                             $item_name = $item_data['name'];
                             $item_description = $item_data['sanitizedDescription'];
                             $item_id_str = (string) $item_id;
-                            print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a>');
+                            print('<tr><td>');
+                            print('<a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a> </td>');
                             if (array_key_exists($item_id_str, $efficiency_lookup)) {
-                                print("<p>".$efficiency_lookup[$item_id_str]."</p><br>");
+                                print("<td><p>".$efficiency_lookup[$item_id_str]."</p></td></tr>");
+                            }
+                            else {
+                                print("<td>Gold Efficiency not calculated for this item</td></tr>");
                             }
                         }
+                        print('</tbody></table>');
                     }
 
                 }
