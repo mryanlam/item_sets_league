@@ -22,15 +22,23 @@
 
                 //If there is a file, open it and interpret it's results
                 if (isset($_POST['submit'])) {
-                    //print("<p> The contents of the file are </p> <br>");
-                    $contents= file_get_contents($_FILES['file']['tmp_name']);
-                    //print ($contents);
+                    //Get API key and prepare url for static api
                     $temp_key = file_get_contents('api.key'); // API Key is stored as a plaintext file in the webserver.
                     $api_key = rtrim($temp_key);
+                    //API calls to /api/lol/static-data/en_US/v1.2/item/<item id> are not counted towards rate limit
                     $api_url_head = 'https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/';
                     $api_url_tail = '?locale=en_US&itemData=all&api_key='.$api_key;
-                    //https://global.api.pvp.net/api/lol/static-data/na/v1.2/item/1001?locale=en_US&itemData=all&api_key=<API KEY>
-                    //API calls to /api/lol/static-data/en_US/v1.2/item/<item id> are not counted towards rate limit
+                    //Parse out the gold efficiency file into a dictionary
+                    $efficiency_flatfile = file_get_contents('guides/item_tree.txt');
+                    $efficiency_array = explode(PHP_EOL, $efficiency_flatfile);
+                    $efficiency_lookup;
+                    foreach ($efficiency_array as $line) {
+                        $temp_arr = explode(",", $line)
+                        $efficiency_lookup[$temp_arr[0]] = $temp_arr[1];
+                    }
+                    var_dump($efficiency_lookup);
+                    //Prepare the uploaded file
+                    $contents= file_get_contents($_FILES['file']['tmp_name']); //opens the uploaded json file
                     $itemset_data = json_decode($contents, true);
                     $champion = $itemset_data['champion'];
                     $map = $itemset_data['mode'];
