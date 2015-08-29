@@ -21,7 +21,9 @@
                     $efficiency_lookup;
                     foreach ($efficiency_array as $line) {
                         $temp_arr = explode(",", $line);
-                        $efficiency_lookup[$temp_arr[0]] = $temp_arr[1];
+                        if ((array_key_exists(0, $temp_arr)) && (array_key_exists(1, $temp_arr))) {
+                            $efficiency_lookup[$temp_arr[0]] = $temp_arr[1];
+                        }
                     }
                     //var_dump($efficiency_lookup);
                     //Prepare the uploaded file
