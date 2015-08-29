@@ -44,7 +44,9 @@
                             $item_description = $item_data['sanitizedDescription'];
                             $item_id_str = (string) $item_id;
                             print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a>');
-                            print("<p>".$efficiency_lookup[$item_id_str]."</p><br>");
+                            if (array_key_exists($item_id_str, $efficiency_lookup)) {
+                                print("<p>".$efficiency_lookup[$item_id_str]."</p><br>");
+                            }
                         }
                     }
 
