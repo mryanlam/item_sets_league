@@ -23,7 +23,7 @@
                         $temp_arr = explode(",", $line);
                         $efficiency_lookup[$temp_arr[0]] = $temp_arr[1];
                     }
-                    var_dump($efficiency_lookup);
+                    //var_dump($efficiency_lookup);
                     //Prepare the uploaded file
                     $contents= file_get_contents($_FILES['file']['tmp_name']); //opens the uploaded json file
                     $itemset_data = json_decode($contents, true);
@@ -42,7 +42,8 @@
                             $img_name = $item_data['image']['full'];
                             $item_name = $item_data['name'];
                             $item_description = $item_data['sanitizedDescription'];
-                            print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a> <br>');
+                            print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a>');
+                            print("<p>".$efficiency_lookup[$item_id]."</p><br>");
                         }
                     }
 
