@@ -30,9 +30,9 @@
                     $champion = $itemset_data['champion'];
                     $map = $itemset_data['mode'];
                     $title = $itemset_data['title'];
-                    print("<p> This is an itemset for ".$champion." on the map ".$map." named ".$title."</p><br>");
+                    print("<h1> This is an itemset for ".$champion." on the map ".$map." named ".$title."</h1><br>");
                     foreach ($itemset_data['blocks'] as $block) {
-                        print("<p>".$block['type']."</p><br>");
+                        print("<h2>".$block['type']."</h2><br>");
                         foreach ($block['items'] as $item) {
                             $quantity = $item['count'];
                             $item_id = $item['id'];
