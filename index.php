@@ -42,8 +42,9 @@
                             $img_name = $item_data['image']['full'];
                             $item_name = $item_data['name'];
                             $item_description = $item_data['sanitizedDescription'];
+                            $item_id_str = (string) $item_id;
                             print($quantity.' of <a href="#" data-toggle="tooltip" title="'.$item_name.' '.$item_description.'"> <img src="img/item/'.$img_name.'" alt="'.$item_name." ".$item_description.'"> </a>');
-                            print("<p>".$efficiency_lookup[$item_id]."</p><br>");
+                            print("<p>".$efficiency_lookup[$item_id_str]."</p><br>");
                         }
                     }
 
