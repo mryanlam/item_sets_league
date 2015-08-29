@@ -50,7 +50,7 @@
                                 print("<td><p>".$efficiency_lookup[$item_id_str]."</p></td></tr>");
                             }
                             else {
-                                print("<td>Gold Efficiency not calculated for this item</td></tr>");
+                                print("<td><p>Gold Efficiency not calculated for this item.</p></td></tr>");
                             }
                         }
                         print('</tbody></table>');
