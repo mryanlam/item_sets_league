@@ -33,7 +33,7 @@
                     $efficiency_array = explode(PHP_EOL, $efficiency_flatfile);
                     $efficiency_lookup;
                     foreach ($efficiency_array as $line) {
-                        $temp_arr = explode(",", $line)
+                        $temp_arr = explode(",", $line);
                         $efficiency_lookup[$temp_arr[0]] = $temp_arr[1];
                     }
                     var_dump($efficiency_lookup);
