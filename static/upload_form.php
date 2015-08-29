@@ -1,5 +1,5 @@
-<h1>Upload a itemset!</h1>
-<p>Upload an itemset file here and we will give statistics on it and stuff</p>
+<h1>Itemset Analyzer</h1>
+<p>Upload an itemset file here to learn more about the item efficiencies of each item in the itemset.  Note: Only some items are currently supported, the vast majority of which are meant for Marksmen.</p>
 <form method="post" enctype="multipart/form-data">
     <label for="file">Filename:</label><input type="file" name="file" id="file" /> <br />
     <input type="submit" name="submit" value="Submit" />
