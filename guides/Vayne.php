@@ -131,6 +131,6 @@
     <hr>
     <b>Gold Efficiency</b><br>
     <ul>
-        <li>he Bloodthirster's base stats are 113.7% gold efficient.</li>
+        <li>The Bloodthirster's base stats are 113.7% gold efficient.</li>
     </ul>
 </div>
