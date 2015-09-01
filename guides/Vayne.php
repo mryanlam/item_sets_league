@@ -94,4 +94,22 @@
     <p> The percentage of armor penetration statistics must have a gold value of at least 860 to be efficient </p>
 </div>
 
-
+<div class="col-md-4">
+    <img src="img/item/1335.png" alt="Berserker's Greaves" width="42" height="42" align="left">
+    <h2>Berserker's Greaves</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>25% attack speed = 750 gold </li>
+        <li>45 movement speed = 585 gold </li>
+        <li>Total Gold Value = 1335 </li>
+    </ul>
+    <hr>
+    <b>Gold Value</b><br>
+    <p>UNIQUE – ENHANCED MOVEMENT: +45 movement speed.</p>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <ul>
+        <li>Berserker's Greaves are 133.5% gold efficient.</li>
+    </ul>
+</div>

@@ -3,8 +3,9 @@
     <img src="img/item/3031.png" alt="Infinity Edge">
     <img src="img/item/1335.png" alt="Berserker's Greaves">
     <img src="img/item/3046.png" alt="Phantom Dancer">
-    <img src="img/item/3035.png" alt="Last Whisper"
+    <img src="img/item/3035.png" alt="Last Whisper">
     <img src="img/item/3072.png" alt="Bloodthirster">
+    <img src="img/item/3139.png" alt="Mercurial Scimitar">
 </div>
 <div class="col-md-4">
     <h2> Short Champion Summary </h2><br>
@@ -108,3 +109,21 @@
         <li>he Bloodthirster's base stats are 113.7% gold efficient.</li>
     </ul>
 </div>
+
+-<div class="col-md-4">
+-    <img src="img/item/3139.png" alt="Mecurial Scimitar" width="42" height="42" align="left">
+-    <h2>Mecurial Scimitar</h2>
+-    <hr>
+-    <b>Gold Value</b><br>
+-    <ul>
+-        <li>+35 attack damage </li>
+-        <li>+80 magic resistance </li>
+-        <li>Active: Removes all debuffs from your champion and grants +50% movement speed for 1 second. 90 second cooldown </li>
+-    </ul>
+-    <hr>
+-    <b>Gold Value</b><br>
+-    <p>80 attack damage = 2880 , 35 magic resist = 700 </p>  <br>
+-    <hr>
+-    <b>Gold Efficiency</b><br>
+-    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
+-</div>

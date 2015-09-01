@@ -5,6 +5,7 @@
     <img src="img/item/3035.png" alt="Last Whisper">
     <img src="img/item/3072.png" alt="Bloodthirster">
     <img src="img/item/1311.png" alt="Mercury Treads Enchantment">
+    <img src="img/item/3139.png" alt="Mercurial Scimitar">
 </div>
 
 <div class="col-md-4">
