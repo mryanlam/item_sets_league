@@ -110,20 +110,20 @@
     </ul>
 </div>
 
--<div class="col-md-4">
--    <img src="img/item/3139.png" alt="Mecurial Scimitar" width="42" height="42" align="left">
--    <h2>Mecurial Scimitar</h2>
--    <hr>
--    <b>Gold Value</b><br>
--    <ul>
--        <li>+35 attack damage </li>
--        <li>+80 magic resistance </li>
--        <li>Active: Removes all debuffs from your champion and grants +50% movement speed for 1 second. 90 second cooldown </li>
--    </ul>
--    <hr>
--    <b>Gold Value</b><br>
--    <p>80 attack damage = 2880 , 35 magic resist = 700 </p>  <br>
--    <hr>
--    <b>Gold Efficiency</b><br>
--    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
--</div>
+<div class="col-md-4">
+    <img src="img/item/3139.png" alt="Mecurial Sceptor" width="42" height="42" align="left">
+    <h2>Mecurial Sceptor</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>+35 attack damage </li>
+        <li>+80 magic resistance </li>
+        <li>Active: Removes all debuffs from your champion and grants +50% movement speed for 1 second. 90 second cooldown </li>
+    </ul>
+    <hr>
+    <b>Gold Value</b><br>
+    <p>80 attack damage = 2880 , 35 magic resist = 700 </p>  <br>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <p>Mercurial Scimitar is 96.75% gold efficient.</p>
+</div>
