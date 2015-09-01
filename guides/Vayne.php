@@ -113,3 +113,24 @@
         <li>Berserker's Greaves are 133.5% gold efficient.</li>
     </ul>
 </div>
+
+<div class="col-md-4">
+    <img src="img/item/3072.png" alt="Bloodthirster" width="42" height="42" align="left">
+    <h2>Blood Thirster</h2>
+    <hr>
+    <b>Gold Value</b><br>
+    <ul>
+        <li>80 attack damage = 2880</li>
+        <li>20% life steal = 1100</li>
+        <li>Total Gold Value = 3980 </li>
+    </ul>
+    <hr>
+    <b>Gold Value</b><br>
+    <p>UNIQUE: +20% life steal</p>
+    <p>UNIQUE: Your life steal overheals you, converting the excess healing into a shield that absorbs up to 50-350 damage and decays when out of combat for 25 seconds.</p>
+    <hr>
+    <b>Gold Efficiency</b><br>
+    <ul>
+        <li>he Bloodthirster's base stats are 113.7% gold efficient.</li>
+    </ul>
+</div>
